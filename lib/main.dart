@@ -6,35 +6,22 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Container(
-                color: Colors.red,
-                width: 100.0,
+            child: Column(
+          children: <Widget>[
+            CircleAvatar(
+              radius: 50.0,
+              backgroundImage: AssetImage('images/bruno.png'),
+            ),
+            Text(
+              'Bruno Cerqueira',
+              style: TextStyle(
+                fontSize: 40.0,
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
               ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Container(
-                    width: 100.0,
-                    height: 100.0,
-                    color: Colors.yellow,
-                  ),
-                  Container(
-                    width: 100.0,
-                    height: 100.0,
-                    color: Colors.green,
-                  )
-                ],
-              ),
-              Container(
-                color: Colors.blue,
-                width: 100.0,
-              )
-            ],
-          ),
-        ),
+            )
+          ],
+        )),
       ),
     ),
   );
