@@ -1,28 +1,64 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
-
 # Mi Card
 
-## Our Goal
+<!-- TABLE OF CONTENTS -->
 
-Now that you've seen how to create a Flutter app entirely from scratch, we're going to go further and learn more about how to design user interfaces for Flutter apps.
+## Table of Contents
 
-## What you will create
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+  - [Run App](#run-app)
+  - [Further Help](#further-help)
+- [What I will learn](#what-i-will-learn)
+- [Roadmap](#roadmap)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-Mi Card is a personal business card. Imagine every time you wanted to give someone your contact details or your business card but you didn't have it on you. Well, now you can get them to download your business card as an app.
+<!-- ABOUT THE PROJECT -->
 
-## What you will learn
+## About The Project
 
-* How to create Stateless Widgets
-* What is the difference between hot reload and hot refresh and running an app from cold
-* How to use Containers to lay out your UI
-* How to use Columns and Rows to position your UI elements
-* How to add custom fonts
-* How to add Material icons
-* How to style Text widgets
-* How to read and use Flutter Documentation
+Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. This is project is to practice flutter and learn having fun!
 
+### Built With
 
+- [Flutter](https://flutter.dev/)
 
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+### Run App
 
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+Run `flutter run` to build the project. the project will be running on a virtual device.
+
+### Further help
+
+Visit the [Flutter docs](https://flutter.dev/docs).
+
+## What I will learn
+
+- How to create Stateless Widgets
+- What is the difference between hot reload and hot refresh and running an app from cold
+- How to use Containers to lay out your UI
+- How to use Columns and Rows to position your UI elements
+- How to add custom fonts
+- How to add Material icons
+- How to style Text widgets
+- How to read and use Flutter Documentation
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+See the [open issues](https://github.com/Bruno-Cerqueira/mi_card_flutter/issues) for a list of proposed features (and known issues).
+
+<!-- CONTACT -->
+
+## Contact
+
+Bruno Cerqueira - brunocerqueirasd@gmail.com
+
+Project Link: [https://github.com/Bruno-Cerqueira/mi_card_flutter](https://github.com/Bruno-Cerqueira/mi_card_flutter)
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+[Amaizing flutter course](https://www.udemy.com/course/flutter-bootcamp-with-dart/)
+[Based Github project](https://github.com/londonappbrewery/mi_card_flutter)
