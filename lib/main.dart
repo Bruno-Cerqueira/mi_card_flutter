@@ -7,6 +7,7 @@ void main() {
         backgroundColor: Colors.teal,
         body: SafeArea(
             child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CircleAvatar(
               radius: 50.0,
@@ -31,52 +32,43 @@ void main() {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            Container(
-              color: Colors.white,
-              padding: EdgeInsets.all(10.0),
-              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-              child: Row(
-                children: <Widget>[
-                  Icon(
+            SizedBox(
+              height: 20.0,
+              width: 150.0,
+              child: Divider(
+                color: Colors.teal.shade100,
+              ),
+            ),
+            Card(
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: ListTile(
+                  leading: Icon(
                     Icons.phone,
                     color: Colors.teal,
                   ),
-                  SizedBox(
-                    width: 10.0,
-                  ),
-                  Text(
+                  title: Text(
                     '+55 11991051626',
                     style: TextStyle(
                         fontSize: 20.0,
                         color: Colors.teal.shade900,
                         fontFamily: 'Source Sans Pro'),
-                  )
-                ],
-              ),
-            ),
-            Container(
-              color: Colors.white,
-              padding: EdgeInsets.all(10.0),
-              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-              child: Row(
-                children: <Widget>[
-                  Icon(
+                  ),
+                )),
+            Card(
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: ListTile(
+                  leading: Icon(
                     Icons.email,
                     color: Colors.teal,
                   ),
-                  SizedBox(
-                    width: 10.0,
-                  ),
-                  Text(
+                  title: Text(
                     'brunocerqueirasd@gmail.com',
                     style: TextStyle(
                         fontSize: 20.0,
                         color: Colors.teal.shade900,
                         fontFamily: 'Source Sans Pro'),
-                  )
-                ],
-              ),
-            )
+                  ),
+                ))
           ],
         )),
       ),

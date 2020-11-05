@@ -1,5 +1,14 @@
 # Mi Card
 
+<!-- PROJECT  -->
+<br />
+<p align="center">
+  <img src="./images/app-image.png" alt="Logo" width="80">
+
+  <h3 align="center">Studying Flutter!</h3>
+  </p>
+</p>
+
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
